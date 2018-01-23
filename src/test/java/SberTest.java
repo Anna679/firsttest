@@ -1,7 +1,4 @@
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,36 +11,26 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import javax.swing.*;
 import java.util.concurrent.TimeUnit;
 
-public class SberTest {
-    WebDriver driver;
-    String baseUrl;
-
-@Before
-    public void beforeTest (){
-    System.setProperty("webdriver.chrome.driver", "drv/chromedriver.exe");
-    baseUrl="http://www.sberbank.ru/ru/person";
-    driver= new ChromeDriver();
-    driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-    driver.manage().window().maximize();
-    driver.get(baseUrl);
-
-
-    }
+public class SberTest  extends BaseTest{
     @Test
+    @Ignore
     public void Sbermetod () {
+        driver.get(baseUrl);
     //1
     driver.findElement(By.xpath("(//SPAN[@class='multiline'])[5]//SPAN[text()='Застраховать себя ']")).click();
     //2
-    driver.findElement(By.xpath("(//A[@class='kit-link kit-link_color_black alt-menu-list__link alt-menu-list__link_level_1'])[36]")).click();
+    driver.findElement(By.xpath("//div[contains(@class,'bp-area header-container')]//a[contains(text(),'Страхование путешественников')]")).click();
     //3
         Assert.assertEquals("Страхование путешественников", driver.findElement(By.xpath("(//H1[text()='Страхование путешественников'])[1]")).getText());
     //4
-        driver.findElement(By.xpath("//IMG[@src='/portalserver/content/atom/contentRepository/content/person/travel/banner-zashita-traveler.jpg?id=f6c836e1-5c5c-4367-b0d0-bbfb96be9c53']")).click();
+        driver.findElement(By.xpath("//a//img[contains(@src,'banner-zashita-traveler')]")).click();
 
         for (String winHandle : driver.getWindowHandles()) {
             driver.switchTo().window(winHandle);
         }
     //5
+        Wait<WebDriver> wait = new WebDriverWait(driver, 10, 1000);
+        wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//*[contains(text(),'Минимальная')]")))).click();
         driver.findElement(By.xpath("//*[contains(text(),'Минимальная')]")).click();
     //6
         driver.findElement(By.xpath("//*[contains(text(),'Оформить')]")).click();
@@ -80,14 +67,5 @@ public class SberTest {
         Assert.assertEquals("Заполнены не все обязательные поля", driver.findElement(By.xpath("//DIV[@ng-show='tryNext && myForm.$invalid']")).getText());
     }
 
-    public void fillField (By locator, String value){
-        driver.findElement(locator).clear();
-        driver.findElement(locator).sendKeys(value);
-    }
-
-    @After
-public void afretTest (){
-driver.quit();
-}
 
 }
