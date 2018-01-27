@@ -12,7 +12,7 @@ public class RefactoringSberTest extends BaseTest {
    @Test
     public void newSberTest (){
          MainPage  mainPage =new MainPage(driver);
-         mainPage.selectMeinMenu("Застраховать себя и имущество");
+         mainPage.selectMeinMenu("Раздел Застраховать себя  и имущество");
          mainPage.selectSubMenu("Страхование путешественников");
 
          new StrahovaniePage(driver).IMGButton.click();
