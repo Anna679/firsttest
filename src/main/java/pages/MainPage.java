@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 public class MainPage {
     @FindBy (xpath = "(//div[@class='sbrf-div-list-inner --area bp-area header-container']//ul[@class='alt-menu-mid__list']//li//a[@aria-label='Раздел Застраховать себя  и имущество'])")
     WebElement mainMenu;
-    @FindBy(xpath = "(((//DIV[@class='alt-menu-collapser__column'])[15]")
+    @FindBy(xpath = "//div[@class='sbrf-div-list-inner --area bp-area header-container']//div[@class='alt-menu-collapser__column']")
     WebElement subMenu;
     public MainPage(WebDriver driver){
         PageFactory.initElements(driver,this);
@@ -21,7 +21,7 @@ public class MainPage {
 
     }
     public void selectSubMenu (String menuItem){
-        subMenu.findElement(By.xpath(".//div[contains(@class,'bp-area header-container')]//a[contains(text(),'"+menuItem+"')]")).click();
+        subMenu.findElement(By.xpath(".//a[contains(text(),'"+menuItem+"')]")).click();
 
     }
 }
