@@ -36,11 +36,12 @@ public class BaseTest {
         System.out.println(baseUrl);
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         driver.manage().window().maximize();
+        driver.get(baseUrl);
     }
 
     @AfterClass
     public static void tearDown() throws Exception {
-        driver.quit();
+       driver.quit();
     }
 
     protected void fillField(By locator, String value) {

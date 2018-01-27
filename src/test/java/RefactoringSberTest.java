@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
 
 public class RefactoringSberTest extends BaseTest {
 
-    @Test
+   @Test
     public void newSberTest (){
          MainPage  mainPage =new MainPage(driver);
          mainPage.selectMeinMenu("Застраховать себя и имущество");
