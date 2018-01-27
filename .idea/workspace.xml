@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9430ffab-4957-4e40-a4fd-1eec11911d92" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RefactoringSberTest.java" afterPath="$PROJECT_DIR$/src/test/java/RefactoringSberTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/MainPage.class" afterPath="$PROJECT_DIR$/target/classes/pages/MainPage.class" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/RefactoringSberTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/RefactoringSberTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-RefactoringSberTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-RefactoringSberTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RefactoringSberTest.class" afterPath="$PROJECT_DIR$/target/test-classes/RefactoringSberTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SberTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SberTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SberTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="21" column="135" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="135" />
+              <caret line="21" column="135" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="135" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <marker date="1516739505334" expanded="true" signature="1640:1810" ph="..." />
@@ -83,8 +78,8 @@
       <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="98" />
+            <state relative-caret-position="313">
+              <caret line="21" column="119" lean-forward="false" selection-start-line="21" selection-start-column="119" selection-end-line="21" selection-end-column="119" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#519#520#0" expanded="true" />
@@ -94,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RefactoringSberTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RefactoringSberTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RefactoringSberTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            <state relative-caret-position="85">
+              <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,8 +148,8 @@
         <option value="$PROJECT_DIR$/src/main/java/pages/FormPage.java" />
         <option value="$PROJECT_DIR$/environmen.properties" />
         <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RefactoringSberTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RefactoringSberTest.java" />
       </list>
     </option>
   </component>
@@ -855,20 +850,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RefactoringSberTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="98" />
+        <state relative-caret-position="313">
+          <caret line="21" column="119" lean-forward="false" selection-start-line="21" selection-start-column="119" selection-end-line="21" selection-end-column="119" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#519#520#0" expanded="true" />
@@ -880,10 +865,20 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/SberTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="21" column="135" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="135" />
+          <caret line="21" column="135" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="135" />
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1516739505334" expanded="true" signature="1640:1810" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RefactoringSberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

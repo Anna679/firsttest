@@ -16,10 +16,10 @@ public class MainPage {
     }
 
     public void selectMeinMenu(String menuItem){
-        mainMenu.findElement(By.xpath(".//a[contains(@aria-label,'" + menuItem + "')]")).click();
+        mainMenu.findElement(By.xpath("(//SPAN[@class='multiline'])[5]//SPAN[text()='"+menuItem+"']")).click();
         }
     public void selectSubMenu (String menuItem){
-        subMenu.findElement(By.xpath(".//a[@href='" + menuItem + "']")).click();
+        subMenu.findElement(By.xpath("//div[contains(@class,'bp-area header-container')]//a[contains(text(),'"+menuItem+"')]")).click();
 
     }
 }
