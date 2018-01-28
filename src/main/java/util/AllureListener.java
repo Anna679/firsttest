@@ -15,4 +15,5 @@ public class AllureListener extends AllureRunListener {
         super.testFailure(failure);
     }
 
+
 }

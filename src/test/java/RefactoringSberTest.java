@@ -7,6 +7,8 @@ import pages.ChoiceInsurancePage;
 import pages.FormPage;
 import pages.MainPage;
 import pages.StrahovaniePage;
+import sun.rmi.runtime.Log;
+
 import static org.junit.Assert.assertEquals;
 
 public class RefactoringSberTest extends BaseSteps {
@@ -18,14 +20,35 @@ public class RefactoringSberTest extends BaseSteps {
          MainPage  mainPage =new MainPage(driver);
          mainPage.selectMeinMenu("Застраховать себя ");
          mainPage.selectSubMenu("Страхование путешественников");
-
          new StrahovaniePage(driver).IMGButton.click();
-         ChoiceInsurancePage choiceInsurancePage=new ChoiceInsurancePage(driver);
-         choiceInsurancePage.selectInsurance("Минимальная");
-         choiceInsurancePage.selectChoiceButton();
-       choiceInsurancePage.NextWindow();
 
-        FormPage formPage =new FormPage(driver);
+       try {
+           Thread.sleep(10000);
+       } catch (InterruptedException e) {
+           e.printStackTrace();
+       }
+       for (String winHandle : driver.getWindowHandles()) {
+           if(winHandle.equals(driver.getWindowHandle())) {
+               System.out.println(driver.getTitle());
+               continue;
+           }
+
+           if (!driver.getTitle().equals("Сбербанк страхование")) {
+
+               System.out.println("tab needed found!!!!");
+               driver.switchTo().window(winHandle);
+               System.out.println(driver.getTitle());
+               break;
+           }
+
+       }
+
+       ChoiceInsurancePage choiceInsurancePage=new ChoiceInsurancePage(driver);
+
+       choiceInsurancePage.selectInsurance("Минимальная");
+       choiceInsurancePage.selectChoiceButton();
+
+       FormPage formPage =new FormPage(driver);
         formPage.fillField("Фамилия застрахованного", "Petrov");
         formPage.fillField("Имя застрахованного", "Petr");
         formPage.fillField("Дата рождения застрахованного", "01.01.1990");
@@ -41,7 +64,7 @@ public class RefactoringSberTest extends BaseSteps {
 
         assertEquals("Petrov", formPage.insuredSurname.getAttribute("value"));
         assertEquals("Petr", formPage.insuredName.getAttribute("value"));
-        assertEquals("01.01.1988", formPage.insuredBirthDate.getAttribute("value"));
+        assertEquals("01.01.1990", formPage.insuredBirthDate.getAttribute("value"));
 
         assertEquals("Иванов", formPage.surname.getAttribute("value"));
         assertEquals("Иван", formPage.name.getAttribute("value"));
