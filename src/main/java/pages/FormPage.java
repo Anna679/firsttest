@@ -84,7 +84,7 @@ public class FormPage {
             case "Номер паспорта":
                 fillField(passportNumber, value);
                 break;
-            case "Дата выдачи паспорта":
+            case "Дата выдачи ":
                 fillField(issueDate, value);
                 break;
             case "Кем выдан":
@@ -108,13 +108,13 @@ public class FormPage {
                 return name.getAttribute("value");
             case "Отчество":
                 return middlename.getAttribute("value");
-            case "ДатаРождения":
+            case "Дата рождения":
                 return birthDate.getAttribute("value");
             case "Серия паспорта":
                 return passportSeries.getAttribute("value");
             case "Номер паспорта":
                 return passportNumber.getAttribute("value");
-            case "Дата выдачи паспорта":
+            case "Дата выдачи ":
                 return issueDate.getAttribute("value");
             case "Кем выдан":
                 return issuePlace.getAttribute("value");

@@ -20,11 +20,10 @@ public class RefactoringSberTest extends BaseSteps {
          mainPage.selectSubMenu("Страхование путешественников");
 
          new StrahovaniePage(driver).IMGButton.click();
-
-
          ChoiceInsurancePage choiceInsurancePage=new ChoiceInsurancePage(driver);
          choiceInsurancePage.selectInsurance("Минимальная");
          choiceInsurancePage.selectChoiceButton();
+       choiceInsurancePage.NextWindow();
 
         FormPage formPage =new FormPage(driver);
         formPage.fillField("Фамилия застрахованного", "Petrov");
@@ -34,8 +33,8 @@ public class RefactoringSberTest extends BaseSteps {
         formPage.fillField("Имя", "Иван");
         formPage.fillField("Отчество", "Иванович");
         formPage.fillField("Дата рождения", "01.01.1990");
-        formPage.fillField("Серия", "4515");
-        formPage.fillField("Номер", "111111");
+        formPage.fillField("Серия паспорта", "4515");
+        formPage.fillField("Номер паспорта", "111111");
         formPage.fillField("Дата выдачи", "01.01.2004");
         formPage.fillField("Кем выдан", "Москва");
 

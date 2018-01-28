@@ -5,7 +5,7 @@ import ru.yandex.qatools.allure.annotations.Title;
 
 import java.util.HashMap;
 
-public class MyTestForAllureReport extends BaseSteps {
+public class MyForAllureReportTest extends BaseSteps {
 @Ignore
     @Test
     @Title("Застраховать себя и имущество")

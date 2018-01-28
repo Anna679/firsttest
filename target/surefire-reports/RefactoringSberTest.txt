@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: RefactoringSberTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 56.148 sec <<< FAILURE! - in RefactoringSberTest
-newSberTest(RefactoringSberTest)  Time elapsed: 37.482 sec  <<< ERROR!
-java.lang.NullPointerException
-	at RefactoringSberTest.newSberTest(RefactoringSberTest.java:25)
-

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: SberTest
+Test set: MyForAllureReportTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec - in SberTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.172 sec - in MyForAllureReportTest
