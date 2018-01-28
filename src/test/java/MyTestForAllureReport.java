@@ -1,11 +1,12 @@
 import Steps.*;
+import org.junit.Ignore;
 import org.junit.Test;
 import ru.yandex.qatools.allure.annotations.Title;
 
 import java.util.HashMap;
 
 public class MyTestForAllureReport extends BaseSteps {
-
+@Ignore
     @Test
     @Title("Застраховать себя и имущество")
     public void testInsurance () {

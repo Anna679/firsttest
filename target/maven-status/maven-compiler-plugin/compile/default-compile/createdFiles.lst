@@ -1,12 +1,2 @@
-Steps\StrahovanieSteps.class
-Steps\ChoiceInsuranceSteps.class
-Steps\FormSteps.class
-util\AllureListener$ListenerAllure.class
-util\TestProperties.class
 pages\StrahovaniePage.class
-pages\ChoiceInsurancePage.class
-Steps\BaseSteps.class
-util\AllureListener.class
 pages\FormPage.class
-Steps\MainSteps.class
-pages\MainPage.class

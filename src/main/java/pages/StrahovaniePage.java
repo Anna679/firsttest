@@ -17,7 +17,7 @@ public class StrahovaniePage {
     public StrahovaniePage(WebDriver driver) {
         PageFactory.initElements(driver, this);
         Wait<WebDriver> wait = new WebDriverWait(driver, 10, 1000);
-        wait.until(ExpectedConditions.visibilityOf(IMGButton)).click();
+        wait.until(ExpectedConditions.visibilityOf(IMGButton));
 
 
     }

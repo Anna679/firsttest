@@ -12,7 +12,8 @@ import static org.junit.Assert.assertEquals;
 public class RefactoringSberTest extends BaseSteps {
 
    @Test
-  @Ignore
+
+
     public void newSberTest (){
          MainPage  mainPage =new MainPage(driver);
          mainPage.selectMeinMenu("Застраховать себя ");
