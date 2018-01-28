@@ -1,4 +1,6 @@
+import Steps.BaseSteps;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import pages.ChoiceInsurancePage;
@@ -7,15 +9,17 @@ import pages.MainPage;
 import pages.StrahovaniePage;
 import static org.junit.Assert.assertEquals;
 
-public class RefactoringSberTest extends BaseTest {
+public class RefactoringSberTest extends BaseSteps {
 
    @Test
+  @Ignore
     public void newSberTest (){
          MainPage  mainPage =new MainPage(driver);
          mainPage.selectMeinMenu("Застраховать себя ");
          mainPage.selectSubMenu("Страхование путешественников");
 
          new StrahovaniePage(driver).IMGButton.click();
+
 
          ChoiceInsurancePage choiceInsurancePage=new ChoiceInsurancePage(driver);
          choiceInsurancePage.selectInsurance("Минимальная");

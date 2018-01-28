@@ -1,17 +1,12 @@
+import Steps.BaseSteps;
 import org.junit.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import javax.swing.*;
-import java.util.concurrent.TimeUnit;
-
-public class SberTest  extends BaseTest{
+public class SberTest  extends BaseSteps {
     @Test
     @Ignore
     public void Sbermetod () {

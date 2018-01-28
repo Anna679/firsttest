@@ -28,4 +28,5 @@ public class ChoiceInsurancePage {
         }
         public void selectChoiceButton(){ChoiceButton.click();}
 
+
 }

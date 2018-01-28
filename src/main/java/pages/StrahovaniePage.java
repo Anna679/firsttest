@@ -19,5 +19,6 @@ public class StrahovaniePage {
         Wait<WebDriver> wait = new WebDriverWait(driver, 10, 1000);
         wait.until(ExpectedConditions.visibilityOf(IMGButton)).click();
 
+
     }
 }

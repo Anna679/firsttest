@@ -1,3 +1,5 @@
+package Steps;
+
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.openqa.selenium.By;
@@ -5,11 +7,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
+import util.TestProperties;
 
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-public class BaseTest {
+public class BaseSteps {
     protected static WebDriver driver;
     protected Actions action = new Actions(driver);
     protected static String baseUrl;
@@ -42,6 +45,10 @@ public class BaseTest {
     @AfterClass
     public static void tearDown() throws Exception {
        driver.quit();
+    }
+
+    public static WebDriver getDriver() {
+        return driver;
     }
 
     protected void fillField(By locator, String value) {
