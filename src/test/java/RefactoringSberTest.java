@@ -7,11 +7,12 @@ import pages.ChoiceInsurancePage;
 import pages.FormPage;
 import pages.MainPage;
 import pages.StrahovaniePage;
-import sun.rmi.runtime.Log;
+
 
 import static org.junit.Assert.assertEquals;
 
 public class RefactoringSberTest extends BaseSteps {
+
 
    @Test
 

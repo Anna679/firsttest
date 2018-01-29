@@ -6,7 +6,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.FormPage;
 import ru.yandex.qatools.allure.annotations.Step;
-import sun.jvm.hotspot.utilities.Assert;
+
 
 import java.util.HashMap;
 

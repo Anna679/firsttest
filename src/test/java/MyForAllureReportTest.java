@@ -6,7 +6,7 @@ import ru.yandex.qatools.allure.annotations.Title;
 import java.util.HashMap;
 
 public class MyForAllureReportTest extends BaseSteps {
-@Ignore
+
     @Test
     @Title("Застраховать себя и имущество")
     public void testInsurance () {
@@ -30,6 +30,26 @@ public class MyForAllureReportTest extends BaseSteps {
         mainSteps.stepSelectMaimMenu("Застраховать себя ");
         mainSteps.stepSelectSubMenu("Страхование путешественников");
         strahovanieSteps.stepSendIMGButton();
+        try {
+            Thread.sleep(10000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        for (String winHandle : driver.getWindowHandles()) {
+            if(winHandle.equals(driver.getWindowHandle())) {
+                System.out.println(driver.getTitle());
+                continue;
+            }
+
+            if (!driver.getTitle().equals("Сбербанк страхование")) {
+
+                System.out.println("tab needed found!!!!");
+                driver.switchTo().window(winHandle);
+                System.out.println(driver.getTitle());
+                break;
+            }
+
+        }
         choiceInsuranceSteps.stepSelectChoiceInsurance("Минимальная");
         formSteps.stepFillSome(testData);
         formSteps.stepSendContinueButton();
