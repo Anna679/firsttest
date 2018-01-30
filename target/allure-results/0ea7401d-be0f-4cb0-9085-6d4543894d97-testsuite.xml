@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1517344985484" stop="1517345008696" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>RefactoringSberTest</name>
+    <test-cases>
+        <test-case start="1517344985485" stop="1517345007710" status="passed">
+            <name>newSberTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="devsrv"/>
+                <label name="thread" value="4548@devsrv.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

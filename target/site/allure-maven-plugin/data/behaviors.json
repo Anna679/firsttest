@@ -1,0 +1,59 @@
+{
+  "features" : [ {
+    "title" : "Without feature",
+    "statistic" : {
+      "total" : 3,
+      "passed" : 2,
+      "pending" : 1,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "4bde1dbd15ede555",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 3,
+        "passed" : 2,
+        "pending" : 1,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "25a258319cc62b79",
+        "name" : "newSberTest",
+        "title" : "New sber test",
+        "time" : {
+          "start" : 1517344985485,
+          "stop" : 1517345007710,
+          "duration" : 22225
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "172dcae5a96243d4",
+        "name" : "Sbermetod",
+        "title" : "Sbermetod",
+        "time" : {
+          "start" : 1517345008677,
+          "stop" : 1517345008677,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "60ceafb8d0f79634",
+        "name" : "testInsurance",
+        "title" : "Застраховать себя и имущество",
+        "time" : {
+          "start" : 1517344957905,
+          "stop" : 1517344976583,
+          "duration" : 18678
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

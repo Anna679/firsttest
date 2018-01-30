@@ -1,0 +1,98 @@
+{
+  "time" : {
+    "start" : 1517344957905,
+    "stop" : 1517345008677,
+    "duration" : 50772
+  },
+  "testSuites" : [ {
+    "uid" : "a96c3a6726f23eb1",
+    "name" : "RefactoringSberTest",
+    "title" : "Refactoring sber test",
+    "time" : {
+      "start" : 1517344985485,
+      "stop" : 1517345007710,
+      "duration" : 22225
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "25a258319cc62b79",
+      "name" : "newSberTest",
+      "title" : "New sber test",
+      "time" : {
+        "start" : 1517344985485,
+        "stop" : 1517345007710,
+        "duration" : 22225
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "c2e5fb606b87d5e7",
+    "name" : "SberTest",
+    "title" : "Sber test",
+    "time" : {
+      "start" : 1517345008677,
+      "stop" : 1517345008677,
+      "duration" : 0
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 0,
+      "pending" : 1,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "172dcae5a96243d4",
+      "name" : "Sbermetod",
+      "title" : "Sbermetod",
+      "time" : {
+        "start" : 1517345008677,
+        "stop" : 1517345008677,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PENDING"
+    } ]
+  }, {
+    "uid" : "c3fce36ddb45d2c7",
+    "name" : "MyForAllureReportTest",
+    "title" : "My for allure report test",
+    "time" : {
+      "start" : 1517344957905,
+      "stop" : 1517344976583,
+      "duration" : 18678
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "60ceafb8d0f79634",
+      "name" : "testInsurance",
+      "title" : "Застраховать себя и имущество",
+      "time" : {
+        "start" : 1517344957905,
+        "stop" : 1517344976583,
+        "duration" : 18678
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

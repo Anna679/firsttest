@@ -1,10 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: MyForAllureReportTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.401 sec <<< FAILURE! - in MyForAllureReportTest
-testInsurance(MyForAllureReportTest)  Time elapsed: 0.172 sec  <<< ERROR!
-java.lang.NoClassDefFoundError: javax/xml/bind/ValidationEventLocator
-	at MyForAllureReportTest.testInsurance(MyForAllureReportTest.java:30)
-Caused by: java.lang.ClassNotFoundException: javax.xml.bind.ValidationEventLocator
-	at MyForAllureReportTest.testInsurance(MyForAllureReportTest.java:30)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 29.388 sec - in MyForAllureReportTest
