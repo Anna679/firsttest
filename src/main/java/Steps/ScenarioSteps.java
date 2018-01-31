@@ -62,14 +62,14 @@ public class ScenarioSteps {
     @When("^заполняются поля:$")
     public void stepZapolnenie(DataTable fields){
         fields.asMap(String.class,String.class).forEach(
-                (key,value) -> formSteps.stepFillSome(key,value));
+                (field,value) -> formSteps.stepFillOne(field,value));
 
     }
 
     @Then("^проверяются поля, что заполненны правильными значениями:$")
     public void stepCheckZapolnenie(DataTable fields){
         fields.asMap(String.class,String.class).forEach(
-                (key,value) -> formSteps.checkFillSome(key,value));
+                (field,value) -> formSteps.checkFullField(field,value));
 
     }
     @When("^нажата кнопка - Продолжить")

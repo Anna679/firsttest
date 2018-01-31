@@ -15,7 +15,7 @@ import ru.yandex.qatools.allure.annotations.Title;
 public class ChoiceInsurancePage {
 
     @FindBy (xpath = "//*[contains(text(),'Минимальная')]")
-    //@FindBy(xpath = "//div[@class='b-form-box-title ng-binding' and text()='Минимальная']")
+
     WebElement Minimal;
     @FindBy (xpath = "//*[contains(text(),'Оформить')]")
     WebElement ChoiceButton;

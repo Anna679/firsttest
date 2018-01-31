@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1517417408038" stop="1517417408279" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Страхование</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1517417408072" stop="1517417408261" status="pending">
+            <name>Заявка на "Страхование путешественников"</name>
+            <title>Заявка на "Страхование путешественников"</title>
+            <description type="text"></description>
+            <failure>
+                <message>Unimplemented steps were found</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps>
+                <step start="1517417408175" stop="1517417408193" status="canceled">
+                    <name>Когда выбран пункт меню "Застраховать себя "</name>
+                    <title>Когда выбран пункт меню "Застраховать себя "</title>
+                </step>
+                <step start="1517417408193" stop="1517417408193" status="canceled">
+                    <name>И выбран вид страхования "Страхование путешественников"</name>
+                    <title>И выбран вид страхования "Страхование путешественников"</title>
+                </step>
+                <step start="1517417408193" stop="1517417408193" status="canceled">
+                    <name>выполнено нажатие на кнопку -Оформить онлайн</name>
+                    <title>выполнено нажатие на кнопку -Оформить онлайн</title>
+                </step>
+                <step start="1517417408193" stop="1517417408193" status="canceled">
+                    <name>Когда переключение в другое окно</name>
+                    <title>Когда переключение в другое окно</title>
+                </step>
+                <step start="1517417408193" stop="1517417408210" status="canceled">
+                    <name>Тогда заполняются поля:</name>
+                    <title>Тогда заполняются поля:</title>
+                </step>
+                <step start="1517417408210" stop="1517417408210" status="canceled">
+                    <name>И проверяются поля, что заполненны правильными значениями:</name>
+                    <title>И проверяются поля, что заполненны правильными значениями:</title>
+                </step>
+                <step start="1517417408210" stop="1517417408210" status="canceled">
+                    <name>Когда нажата кнопка - Продолжить</name>
+                    <title>Когда нажата кнопка - Продолжить</title>
+                </step>
+                <step start="1517417408210" stop="1517417408210" status="canceled">
+                    <name>Тогда Вызов ошибки</name>
+                    <title>Тогда Вызов ошибки</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Заявка на &quot;Страхование путешественников&quot;"/>
+                <label name="feature" value="Страхование"/>
+                <label name="host" value="devsrv"/>
+                <label name="thread" value="2892@devsrv.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Страхование"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
