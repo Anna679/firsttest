@@ -7,6 +7,7 @@ import java.util.HashMap;
 
 public class MyForAllureReportTest extends BaseSteps {
 
+    @Ignore
     @Test
     @Title("Застраховать себя и имущество")
     public void testInsurance () {

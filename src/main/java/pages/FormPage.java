@@ -55,6 +55,11 @@ public class FormPage {
         (new WebDriverWait(driver, 10)).until(ExpectedConditions.elementToBeClickable(GoButton));
     }
 
+    public FormPage() {
+
+    }
+
+
     public void fillField(String fildName, String value) {
         switch (fildName) {
             case "Фамилия застрахованного":

@@ -14,7 +14,8 @@ import static org.junit.Assert.assertEquals;
 public class RefactoringSberTest extends BaseSteps {
 
 
-   @Test
+   @Ignore
+    @Test
 
 
     public void newSberTest (){

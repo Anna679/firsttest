@@ -12,13 +12,13 @@ import java.util.HashMap;
 
 import static junit.framework.TestCase.assertTrue;
 
-public class FormSteps extends BaseSteps {
+public class FormSteps {
 
     private String value;
 
     @Step("Поле {0} заполняется значением {1}")
     public void stepFillOne (String filed , String value){
-        new FormPage(driver).fillField(filed,value);
+        new FormPage(BaseSteps.getDriver()).fillField(filed,value);
     }
 
     @Step ("Заполняются поля:")
@@ -29,7 +29,7 @@ public class FormSteps extends BaseSteps {
 
     @Step("Поле {0} заполнено значением {1}")
     public void checkFullField(String field, String value){
-        String Znachenie = new FormPage(driver).getFillZnachenie(field);
+        String Znachenie = new FormPage(BaseSteps.getDriver()).getFillZnachenie(field);
         assertTrue(String.format("Значение поля [%s] равно [%s]. Ожидалось - [%s]", field, Znachenie, value),Znachenie.equals(value));
     }
 
@@ -39,14 +39,16 @@ public class FormSteps extends BaseSteps {
    }
     @Step("Нажать на кнопку - Продолжить")
     public void stepSendContinueButton() {
-        new FormPage(driver).ClickGoButton();
+        new FormPage(BaseSteps.getDriver()).ClickGoButton();
     }
 
         @Step("Cообщение об ошибке по заполнению полей")
 
         public void stepCheckErrorMessage(String  value){
-            new FormPage(driver).checkErrorMessage(value);
+            new FormPage(BaseSteps.getDriver()).checkErrorMessage(value);
         }
-    }
+
+
+}
 
 

@@ -2,23 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9430ffab-4957-4e40-a4fd-1eec11911d92" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_api_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_html_0_2_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_java_1_2_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_junit_1_2_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_jvm_deps_1_0_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_gherkin_2_12_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_cucumber_jvm_adaptor_1_6_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Steps/ScenarioSteps.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/CucumberRunner.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/Страхование.feature" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_junit_adaptor_1_5_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_commons_1_5_2.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Steps/BaseSteps.class" afterPath="$PROJECT_DIR$/target/classes/Steps/BaseSteps.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/ChoiceInsurancePage.class" afterPath="$PROJECT_DIR$/target/classes/pages/ChoiceInsurancePage.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/FormPage.class" afterPath="$PROJECT_DIR$/target/classes/pages/FormPage.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/TestProperties.class" afterPath="$PROJECT_DIR$/target/classes/util/TestProperties.class" />
-      <change beforePath="$PROJECT_DIR$/target/firsttest-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/firsttest-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/allure-maven-plugin.html" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/allure-maven-plugin.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/MyForAllureReportTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/MyForAllureReportTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/RefactoringSberTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/RefactoringSberTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-MyForAllureReportTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-MyForAllureReportTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-RefactoringSberTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-RefactoringSberTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-SberTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-SberTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MyForAllureReportTest.class" afterPath="$PROJECT_DIR$/target/test-classes/MyForAllureReportTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RefactoringSberTest.class" afterPath="$PROJECT_DIR$/target/test-classes/RefactoringSberTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SberTest.class" afterPath="$PROJECT_DIR$/target/test-classes/SberTest.class" />
+      <change beforePath="$PROJECT_DIR$/firsttest.iml" afterPath="$PROJECT_DIR$/firsttest.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Steps/BaseSteps.java" afterPath="$PROJECT_DIR$/src/main/java/Steps/BaseSteps.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Steps/ChoiceInsuranceSteps.java" afterPath="$PROJECT_DIR$/src/main/java/Steps/ChoiceInsuranceSteps.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Steps/FormSteps.java" afterPath="$PROJECT_DIR$/src/main/java/Steps/FormSteps.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Steps/MainSteps.java" afterPath="$PROJECT_DIR$/src/main/java/Steps/MainSteps.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Steps/StrahovanieSteps.java" afterPath="$PROJECT_DIR$/src/main/java/Steps/StrahovanieSteps.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FormPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/FormPage.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/AllureListener.java" afterPath="$PROJECT_DIR$/src/main/java/util/AllureReporter.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyForAllureReportTest.java" afterPath="$PROJECT_DIR$/src/test/java/MyForAllureReportTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RefactoringSberTest.java" afterPath="$PROJECT_DIR$/src/test/java/RefactoringSberTest.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Steps/BaseSteps.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Steps/ChoiceInsuranceSteps.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Steps/FormSteps.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Steps/MainSteps.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Steps/StrahovanieSteps.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/ChoiceInsurancePage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/FormPage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/MainPage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/StrahovaniePage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/AllureListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/TestProperties.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,12 +53,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="ScenarioSteps.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Steps/ScenarioSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="342">
+              <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
+                <element signature="e#988#989#0" expanded="true" />
+                <element signature="e#2548#2549#0" expanded="true" />
+                <element signature="e#2588#2589#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,8 +74,8 @@
       <file leaf-file-name="MyForAllureReportTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MyForAllureReportTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="444">
+              <caret line="61" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,31 +83,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ValidationEventLocator.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.xml.bind/javax/xml/bind/ValidationEventLocator.java">
+      <file leaf-file-name="Страхование.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/Страхование.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="46" column="17" lean-forward="false" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+            <state relative-caret-position="352">
+              <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StrahovanieSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Steps/StrahovanieSteps.java">
+      <file leaf-file-name="BiConsumer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/function/BiConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            <state relative-caret-position="-11">
+              <caret line="52" column="9" lean-forward="false" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StrahovaniePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/StrahovaniePage.java">
+      <file leaf-file-name="CucumberRunner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CucumberRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,26 +115,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Steps/MainSteps.java">
+      <file leaf-file-name="RefactoringSberTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RefactoringSberTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="1428">
+              <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FormSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Steps/FormSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -114,18 +132,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
               <caret line="32" column="57" lean-forward="false" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
-              <folding>
-                <marker date="1517084732665" expanded="true" signature="1461:1631" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AllureListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/AllureListener.java">
+      <file leaf-file-name="AllureReporter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/AllureReporter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="391">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,12 +149,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RefactoringSberTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/RefactoringSberTest.java">
+      <file leaf-file-name="FormPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/FormPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="986">
+              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FormSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Steps/FormSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,21 +202,27 @@
         <option value="$PROJECT_DIR$/src/main/java/util/TestProperties.java" />
         <option value="$PROJECT_DIR$/src/main/java/Steps/Step.java" />
         <option value="$PROJECT_DIR$/src/main/java/Steps/Steps.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Steps/StrahovanieSteps.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Steps/ChoiceInsuranceSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/StrahovaniePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/MyTestForAllureReport.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Steps/BaseSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/ChoiceInsurancePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/FormPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/AllureListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/SberTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MyForAllureReportTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Steps/MainSteps.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Steps/FormSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RefactoringSberTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/Ctrachovanie.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/Steps/BaseSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/ghguy.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/util/AllureListener.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CucumberRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Steps/MainSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Steps/ChoiceInsuranceSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Steps/StrahovanieSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/FormPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Steps/FormSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/Страхование.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/util/AllureReporter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Steps/ScenarioSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MyForAllureReportTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RefactoringSberTest.java" />
       </list>
     </option>
   </component>
@@ -219,10 +255,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="117" />
-    <option name="y" value="47" />
-    <option name="width" value="1599" />
-    <option name="height" value="608" />
+    <option name="x" value="2" />
+    <option name="y" value="2" />
+    <option name="width" value="1170" />
+    <option name="height" value="438" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -243,6 +279,9 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -258,7 +297,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -329,26 +368,9 @@
             <path>
               <item name="firsttest" type="b2602c69:ProjectViewProjectNode" />
               <item name="firsttest" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="firsttest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="firsttest" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="allure-results" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="firsttest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="firsttest" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="firsttest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="firsttest" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="allure-maven-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="firsttest" type="b2602c69:ProjectViewProjectNode" />
@@ -358,16 +380,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Lesson 3" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -389,7 +412,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.Unnamed">
+  <component name="RunManager" selected="JUnit.CucumberRunner">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -420,6 +443,26 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="CucumberRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="firsttest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CucumberRunner" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -556,16 +599,18 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.SberTest.Sbermetod" />
       <item index="1" class="java.lang.String" itemvalue="Maven.Unnamed" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.All in firsttest" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.RefactoringSberTest.newSberTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CucumberRunner" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RefactoringSberTest.newSberTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in firsttest" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CucumberRunner" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RefactoringSberTest.newSberTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.All in firsttest" />
       </list>
     </recent_temporary>
   </component>
@@ -622,21 +667,21 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33459118" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.81497794" sideWeight="0.5371597" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.80125785" sideWeight="0.5371597" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.052980132" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32955974" sideWeight="0.46284032" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955974" sideWeight="0.46284032" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955974" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18710022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19989339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39874214" sideWeight="0.48081023" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33459118" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -662,105 +707,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/AllureListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RefactoringSberTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="66" column="32" lean-forward="false" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/StrahovaniePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="19" column="62" lean-forward="false" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/FormPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="86" column="29" lean-forward="false" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/ChoiceInsurancePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/MyForAllureReportTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SberTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="8" lean-forward="true" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="154" />
-          <folding>
-            <marker date="1517084732665" expanded="true" signature="1461:1631" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/environmen.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/TestProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Steps/BaseSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RefactoringSberTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/StrahovaniePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -776,7 +722,7 @@
         <state relative-caret-position="374">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -821,9 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <marker date="1517084732665" expanded="true" signature="1461:1631" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -846,9 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <marker date="1517084732665" expanded="true" signature="1461:1631" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -871,9 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-          <folding>
-            <marker date="1517084732665" expanded="true" signature="1461:1631" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -881,13 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2069">
           <caret line="372" column="0" lean-forward="false" selection-start-line="372" selection-start-column="0" selection-end-line="372" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drv/chromedriver.exe">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="4" column="205" lean-forward="false" selection-start-line="4" selection-start-column="205" selection-end-line="4" selection-end-column="205" />
         </state>
       </provider>
     </entry>
@@ -907,61 +837,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Steps/ChoiceInsuranceSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/TestProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Steps/BaseSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="63" column="70" lean-forward="false" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/ChoiceInsurancePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/AllureListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SberTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="32" column="57" lean-forward="false" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
-          <folding>
-            <marker date="1517084732665" expanded="true" signature="1461:1631" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -986,17 +865,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/FormPage.java">
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.xml.bind/javax/xml/bind/ValidationEventLocator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="86" column="29" lean-forward="false" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
+        <state relative-caret-position="391">
+          <caret line="46" column="17" lean-forward="false" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drv/chromedriver.exe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="205" lean-forward="false" selection-start-line="4" selection-start-column="205" selection-end-line="4" selection-end-column="205" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/ChoiceInsurancePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/hfjhg.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/Ctrach.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testname.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/Ctrachovanie.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/1.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/Ctrahovanie.feature" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/d.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ghguy.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Steps/BaseSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="49" column="10" lean-forward="false" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/StrahovaniePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Steps/MainSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Steps/ChoiceInsuranceSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1005,52 +973,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Steps/StrahovanieSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        <state relative-caret-position="68">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Steps/MainSteps.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/function/BiConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-11">
+          <caret line="52" column="9" lean-forward="false" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Steps/FormSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="261">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/FormPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/Страхование.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.xml.bind/javax/xml/bind/ValidationEventLocator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/AllureReporter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="46" column="17" lean-forward="false" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="32" column="57" lean-forward="false" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CucumberRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="153">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MyForAllureReportTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="444">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1059,9 +1055,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RefactoringSberTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1428">
+          <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Steps/ScenarioSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#2548#2549#0" expanded="true" />
+            <element signature="e#2588#2589#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
