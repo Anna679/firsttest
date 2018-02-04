@@ -8,7 +8,7 @@ public class MainSteps{
 
 @Step("Выбран пункт меню {0}")
     public void stepSelectMaimMenu(String menuItem){
-    new MainPage(BaseSteps.getDriver()).selectMeinMenu(menuItem);;
+    new MainPage(BaseSteps.getDriver()).selectMeinMenu(menuItem);
 }
 
 @Step ("Выбран вид страхования {0}")

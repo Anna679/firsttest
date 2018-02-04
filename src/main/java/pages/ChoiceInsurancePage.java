@@ -19,8 +19,10 @@ public class ChoiceInsurancePage {
     WebElement Minimal;
     @FindBy (xpath = "//*[contains(text(),'Оформить')]")
     WebElement ChoiceButton;
+
     WebDriver driver;
     public Wait<WebDriver> wait;
+
    public ChoiceInsurancePage(WebDriver driver){
        this.driver=driver;
      PageFactory.initElements(driver, this);
@@ -30,13 +32,9 @@ public class ChoiceInsurancePage {
   }
 
         public void selectInsurance (String menuItem){
-        //Minimal.findElement(By.xpath("//*[contains(text(),'"+menuItem+"')]")).click();
+       wait.until(ExpectedConditions.elementToBeClickable(
+               Minimal.findElement(By.xpath("//*[contains(text(),'"+menuItem+"')]")))).click();
 
-
-            wait.until(ExpectedConditions.elementToBeClickable(
-
-            Minimal.findElement(By.xpath("//*[contains(text(),'"+menuItem+"')]")))).click();
-        ////
         }
         public void selectChoiceButton(){ChoiceButton.click();
         }

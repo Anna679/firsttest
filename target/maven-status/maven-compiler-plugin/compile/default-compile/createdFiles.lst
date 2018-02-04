@@ -4,8 +4,9 @@ Steps\FormSteps.class
 util\TestProperties.class
 pages\StrahovaniePage.class
 pages\ChoiceInsurancePage.class
+util\AllureReporter.class
 Steps\BaseSteps.class
-util\AllureListener.class
+Steps\ScenarioSteps.class
 pages\FormPage.class
 Steps\MainSteps.class
 pages\MainPage.class

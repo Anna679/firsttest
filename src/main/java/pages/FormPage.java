@@ -13,8 +13,8 @@ import static org.junit.Assert.assertTrue;
 
 public class FormPage {
 
-    @FindBy(xpath = "//SPAN[@ng-click='save()'][text()='Продолжить']")
-    WebElement GoButton;
+    @FindBy(xpath = "//*[contains(text(),'Продолжить')]")
+    public WebElement GoButton;
 
     @FindBy(name = "insured0_surname")
     public WebElement insuredSurname;
@@ -52,7 +52,7 @@ public class FormPage {
 
     public FormPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
-        (new WebDriverWait(driver, 10)).until(ExpectedConditions.elementToBeClickable(GoButton));
+        //(new WebDriverWait(driver, 10)).until(ExpectedConditions.elementToBeClickable(GoButton));
     }
 
     public FormPage() {
@@ -131,10 +131,19 @@ public class FormPage {
         element.sendKeys(value);
     }
     public void ClickGoButton() {
+        GoButton=BaseSteps.getDriver().findElement(By.xpath("//*[contains(text(),'Продолжить')]"));
+        (new WebDriverWait(BaseSteps.getDriver(), 10)).until(ExpectedConditions.elementToBeClickable(GoButton));
+        if (GoButton==null)
+            System.out.println("Кнопки нет");
         GoButton.click();}
 
     public void checkErrorMessage(String errorMessage){
-        String alertText = BaseSteps.getDriver().findElement(By.xpath("//div [text()='Заполнены не все обязательные поля']")).getText();
+        WebElement erorMessage=BaseSteps.getDriver().findElement(By.xpath("//div [text()='Заполнены не все обязательные поля']"));
+        (new WebDriverWait(BaseSteps.getDriver(), 10)).until(ExpectedConditions.elementToBeClickable(erorMessage));
+        if (erorMessage==null)
+            System.out.println("ошибки нет");
+        String alertText = erorMessage.getText();
+        System.out.println(alertText);
         assertTrue(String.format("Получено значение [%s]. Ожидалось [%s]", alertText, errorMessage),alertText.equals(errorMessage));
     }
 

@@ -17,6 +17,7 @@ public class MainPage {
     @FindBy(xpath = "//div[contains(@class,'header_more_nav')]")
     WebElement subMenu;
     public Wait<WebDriver> wait;
+
     public void selectMeinMenu(String menuItem){
 
         mainMenu.findElement(By.xpath(".//SPAN[@class='multiline']//SPAN[text()='"+menuItem+"']")).click();

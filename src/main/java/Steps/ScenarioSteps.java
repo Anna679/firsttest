@@ -27,14 +27,18 @@ public class ScenarioSteps {
         mainSteps.stepSelectSubMenu(menuItem);
 
     }
-    @When("^выполнено нажатие на кнопку -Оформить онлайн ")
+    @When("^выполнено нажатие на кнопку -Оформить онлайн")
     public void stepSendButtonOrotmit(){
         strahovanieSteps.stepSendIMGButton();
     }
     @Then("^переключение в другое окно")
     public void stepSwitchToWindow (){
+        switchToWindow("Сбербанк страхование");
+    }
+    public void switchToWindow (String nameWindow ){
+
         try {
-            Thread.sleep(10000);
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -44,7 +48,7 @@ public class ScenarioSteps {
                 continue;
             }
 
-            if (!(BaseSteps.getDriver()).getTitle().equals("Сбербанк страхование")) {
+            if (!(BaseSteps.getDriver()).getTitle().equals(nameWindow)) {
 
                 System.out.println("tab needed found!!!!");
                 (BaseSteps.getDriver()).switchTo().window(winHandle);
@@ -74,11 +78,11 @@ public class ScenarioSteps {
     }
     @When("^нажата кнопка - Продолжить")
     public void stepSendButtonContinue(){
+
         formPage.ClickGoButton();
     }
     @Then("^Вызов ошибки")
-    public void stepCheckErrorMessage(String errorMessage){
-        String alertText = BaseSteps.getDriver().findElement(By.xpath("//div [text()='Заполнены не все обязательные поля']")).getText();
-        assertTrue(String.format("Получено значение [%s]. Ожидалось [%s]", alertText, errorMessage),alertText.equals(errorMessage));
+    public void stepCheckErrorMessage(/*String errorMessage*/){
+     formSteps.stepCheckErrorMessage("Заполнены не все обязательные поля");
     }
     }

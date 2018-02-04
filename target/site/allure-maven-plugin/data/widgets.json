@@ -3,17 +3,17 @@
   "plugins" : {
     "total" : {
       "statistic" : {
-        "total" : 3,
-        "passed" : 2,
-        "pending" : 1,
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
       },
       "time" : {
-        "start" : 1517344957905,
-        "stop" : 1517345008677,
-        "duration" : 50772
+        "start" : 1517760609114,
+        "stop" : 1517760630595,
+        "duration" : 21481
       }
     },
     "defects" : {
@@ -21,36 +21,14 @@
       "items" : [ ]
     },
     "xunit" : {
-      "totalCount" : 3,
+      "totalCount" : 1,
       "items" : [ {
-        "uid" : "c3fce36ddb45d2c7",
-        "title" : "My for allure report test",
+        "uid" : "a1e78eb19885e93e",
+        "title" : "Страхование",
         "statistic" : {
           "total" : 1,
           "passed" : 1,
           "pending" : 0,
-          "canceled" : 0,
-          "failed" : 0,
-          "broken" : 0
-        }
-      }, {
-        "uid" : "a96c3a6726f23eb1",
-        "title" : "Refactoring sber test",
-        "statistic" : {
-          "total" : 1,
-          "passed" : 1,
-          "pending" : 0,
-          "canceled" : 0,
-          "failed" : 0,
-          "broken" : 0
-        }
-      }, {
-        "uid" : "c2e5fb606b87d5e7",
-        "title" : "Sber test",
-        "statistic" : {
-          "total" : 1,
-          "passed" : 0,
-          "pending" : 1,
           "canceled" : 0,
           "failed" : 0,
           "broken" : 0
@@ -60,11 +38,11 @@
     "behaviors" : {
       "totalCount" : 1,
       "items" : [ {
-        "title" : "Without feature",
+        "title" : "Страхование",
         "statistic" : {
-          "total" : 3,
-          "passed" : 2,
-          "pending" : 1,
+          "total" : 1,
+          "passed" : 1,
+          "pending" : 0,
           "canceled" : 0,
           "failed" : 0,
           "broken" : 0

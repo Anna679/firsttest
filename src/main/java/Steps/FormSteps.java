@@ -38,6 +38,7 @@ public class FormSteps {
        fields.forEach((key, value)-> checkFullField(key,value));
    }
     @Step("Нажать на кнопку - Продолжить")
+
     public void stepSendContinueButton() {
         new FormPage(BaseSteps.getDriver()).ClickGoButton();
     }
